@@ -6,6 +6,11 @@
     <title>CodeSpace Pets Instagram 😺</title>
     <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.profile-stat-count {
+		  font-size: 10px; 
+		}
+	  </style>
 </head>
 <body>
     
@@ -17,35 +22,32 @@
 
 				<div class="profile-image">
 
-					<img src="./images/cat-codespace.png" alt="CodeSpace Cat">
+					<img id="profile-image" src="./images/cat-codespace.png" alt="CodeSpace Cat">
 
 				</div>
+					<div class="profile-info">
+						<div class="profile-user-settings">
 
-				<div class="profile-user-settings">
+							<h1 class="profile-user-name">codespace_pets</h1>
 
-					<h1 class="profile-user-name">codespace_pets</h1>
+							<button class="btnprofile-edit-btn">Edit Profile</button>
 
-					<button class="btn profile-edit-btn">Edit Profile</button>
+							<button class="btn profile-settings-btn" aria-label="profile settings"><i class="fa fa-cog" aria-hidden="true"></i></button>
 
-					<button class="btn profile-settings-btn" aria-label="profile settings"><i class="fa fa-cog" aria-hidden="true"></i></button>
+						</div>
 
-				</div>
+						<div class="profile-stats">
+								<div class="profile-stat-count"><strong>549</strong> posts</div>
+								<div class="profile-stat-count"><strong>45 682</strong> followers</div>
+								<div class="profile-stat-count"><strong>1</strong> following</div>
+						</div>
 
-				<div class="profile-stats">
+						<div class="profile-bio">
 
-					<ul>
-						<li><span class="profile-stat-count">549</span> posts</li>
-						<li><span class="profile-stat-count">45 682</span> followers</li>
-						<li><span class="profile-stat-count">1</span> following</li>
-					</ul>
+							<p><span class="profile-real-name"><strong>CodeSpace Pets 😺</strong></span>The hangout place for the best pets 🐕🐇🐦</p>
 
-				</div>
-
-				<div class="profile-bio">
-
-					<p><span class="profile-real-name">CodeSpace Pets 😺</span> The hangout place for the best pets 🐕🐇🐦</p>
-
-				</div>
+						</div>
+					</div> 
 
 			</div>
 			<!-- End of profile section -->
