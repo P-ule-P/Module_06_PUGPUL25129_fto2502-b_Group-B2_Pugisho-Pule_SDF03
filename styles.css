@@ -19,12 +19,19 @@ body {
   margin: 100px;
 }
 
+.container {
+  display: grid;
+}
+
 img {
   display: block;
+  border-radius: 100em;
+  border: 15px solid #496d62;
 }
 
 .container-gallery {
   display: grid;
+  position: relative;
 }
 
 .gallery {
@@ -35,7 +42,7 @@ img {
 
 .gallery-item {
   position: relative;
-  display: block;
+  display: grid;
 }
 
 .gallery-item img {
@@ -103,14 +110,15 @@ img {
   border: 0;
 }
 
-.fa fa-heart {
-  display: inline-block;
-  padding-right: 10px;
-}
-
-.fa fa-comment {
-  display: inline-block;
-}
-
 .gallery-item-type {
+  position: absolute;
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  color: #faf9f6; /* Icon color */
+  font-size: 1.5em;
+  padding: 5px; /* Optional: Add padding */
+  border-radius: 3px; /* Optional: Rounded corners */
+  transform: rotate(180deg);
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 2);
 }
