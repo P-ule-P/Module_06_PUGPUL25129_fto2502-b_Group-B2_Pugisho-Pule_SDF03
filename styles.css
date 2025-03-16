@@ -1,7 +1,7 @@
 /* Base Styles */
 
 :root {
-  font-size: 10px;
+  font-size: 14px;
   --black: #262626;
   --white: #faf9f6;
   --lightgrey: #d3d3d3;
@@ -53,22 +53,14 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  max-width: 100%;
+  width: auto;
   margin: auto;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: var(--black);
-  margin-bottom: 1em;
 }
 
 .profile {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* width: 100%; */
 }
 
 #profile-image {
@@ -86,10 +78,9 @@ h1 {
 
 .profile-info {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  row-gap: 4em;
+  column-gap: 4em;
   width: 100%;
   padding: 10px;
   margin-right: 10em;
@@ -151,7 +142,7 @@ h1 {
   gap: 10px;
   height: auto;
   width: auto;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 /* Main Content */
@@ -162,9 +153,9 @@ h1 {
 
 .gallery {
   display: grid;
-  grid-gap: 3px;
+  grid-gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
-  width: 50%;
+  width: 70%;
 }
 
 .gallery-item {
